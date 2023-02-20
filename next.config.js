@@ -53,7 +53,7 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
-  assetPrefix: isProd ? '/your-github-repo-name/' : '',
+  assetPrefix: '/bitwisecat.github.io/',
   images: {
     unoptimized: true,
   },
