@@ -53,6 +53,10 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
+  assetPrefix: isProd ? '/your-github-repo-name/' : '',
+  images: {
+    unoptimized: true,
+  },
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
